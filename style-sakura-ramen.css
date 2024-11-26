@@ -375,10 +375,12 @@ h3 {
 }
 
 @media (max-width: 460px) {
-  .nav-section {
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 40px;
+  .logo img {
+    width: 48px;
+    height: 48px;
+  }
+  .nav-list a {
+    font-size: 12px;
   }
   h1 {
     font-size: 72px;
@@ -397,6 +399,10 @@ h3 {
 }
 
 @media (max-width: 420px) {
+  .nav-section {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
   h1 {
     text-align: center;
     padding: 20px 5px 20px 5px;
@@ -417,12 +423,6 @@ h3 {
 }
 
 @media (max-width: 340px) {
-  .nav-list a {
-    font-size: 16px;
-  }
-  .nav-section {
-    margin: 0;
-  }
   h1 {
     font-size: 64px;
     padding: 20px 5px 20px 5px;
